@@ -17,7 +17,15 @@ Compiling and running
 ---------------------
 
 Run `> make` to compile the code. If the compilation was successful, you can run the example programs via 
-`> ./simple_example` or `> ./advanced_example`.
+```
+> ./simple_example
+``` 
+
+or 
+
+```
+> ./advanced_example
+```
 
 
 Example
