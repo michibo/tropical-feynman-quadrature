@@ -16,7 +16,8 @@ The following programs/packages need to be available to run the code:
 Compiling and running
 ---------------------
 
-Run `> make` to compile the code. If the compilation was successful, you can run the example programs `> ./simple_example` or `> ./advanced_example`.
+Run `> make` to compile the code. If the compilation was successful, you can run the example programs via 
+`> ./simple_example` or `> ./advanced_example`.
 
 
 Example
