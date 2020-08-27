@@ -369,7 +369,7 @@ void phi4_13_loop_example( uint64_t N = 10000000ULL )
     integrate_graph( g, D, momenta, masses_sqr, N );
 }
 
-void phi4_17_loop_example( uint64_t N = 10000000000ULL )
+void phi4_17_loop_example( uint64_t N = 1000000000ULL )
 {
     cout << "Example: 17 loop graph in phi^4 with D=4 " << endl;
 
@@ -467,7 +467,7 @@ int main()
 
     cout << "################################" << endl;
 
-    //zigzag_example( 17, 10000000000ULL );
+    //zigzag_example( 17, 1000000000ULL );
 
     cout << "################################" << endl;
 
