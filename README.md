@@ -3,6 +3,8 @@ A tropical Monte Carlo integrator for parametric Feynman integrals
 
 This repository is a proof-of-concept implementation of an algorithm to estimate Feynman integrals using tropical sampling. The details of this algorithm and its general form for arbitrary generalized permutahedra type integrals is described in the paper ['Tropical Monte Carlo quadrature for Feynman integrals'](ref). 
 
+The implementation uses the [xoshiro256+](http://prng.di.unimi.it/) random number generator.
+
 Prerequisites
 -------------
 
@@ -11,7 +13,6 @@ The following programs/packages need to be available to run the code:
 - gcc
 - OpenMP and 
 - the [Eigen](http://eigen.tuxfamily.org) linear algebra C++ library
-
 
 Compiling and running
 ---------------------
@@ -137,4 +138,5 @@ cout << "Relative accuracy: " << res.acc()/res.avg() << endl;
 
 This example is implemented in `simple_example.cpp` and can be executed by running the `> ./simple_example` program, which is compiled using `> make`.
 
-A more advanced example with some benchmark code can be found in `advanced_example.cpp`, which can be run using `> ./advanced_example`. 
+More advanced examples with some benchmark code, integration of massive Feynman graphs and graphs with more loops can be found in `advanced_example.cpp`, which can be run using `> ./advanced_example`. 
+
