@@ -7,8 +7,6 @@ CXXFLAGS+= `pkg-config --cflags eigen3`
 CXXFLAGS+= -std=c++11 -O3 -ffast-math -funsafe-math-optimizations -fopenmp #-static
 CXXFLAGS+= -DNDEBUG
 
-LDFLAGS=  -lm
-
 SRCS=simple_example.cpp advanced_example.cpp 
 
 OBJS=$(SRCS:.cpp=.o)
