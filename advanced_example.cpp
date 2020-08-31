@@ -172,7 +172,7 @@ void massive_example( uint64_t N = 1000000ULL )
 
 void wizard_example( uint64_t N = 1000000ULL )
 {
-    cout << "Example: 8 loop graph in phi^4 with D=4 (Brown-Schnetz wizard see Fig.3)" << endl;
+    cout << "Example: 8 loop graph in phi^4 with D=4 (Brown-Schnetz wizard see Fig.3 arXiv:2008.12310)" << endl;
 
     constexpr int D = 4;
 
