@@ -1,6 +1,8 @@
 A tropical Monte Carlo integrator for parametric Feynman integrals
 ==================================================================
 
+This code is now superseded by [feyntrop](https://github.com/michibo/feyntrop) which is an updated and extended version of the code in this repository.
+
 This repository is a proof-of-concept implementation of an algorithm to estimate Feynman integrals using tropical sampling. The details of this algorithm and its general form for arbitrary generalized permutahedra type integrals is described in the paper ['Tropical Monte Carlo quadrature for Feynman integrals'](//arxiv.org/abs/2008.12310). 
 
 The implementation uses the [xoshiro256+](http://prng.di.unimi.it/) random number generator.
